@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  padding: 10%;
+  background-color: #333f27;
+  font-family: Arial;
+}
+form {
+  border: 2px solid #fff ;
+  text-align: center;
+  padding: 60px;
+  justify-content: center;
+  background-color: #000;
+  border-radius: 5%;
+}
+h2 {
+  text-align: center;
+  color: #fff;
+}
+input {
+  border: 5px solid #000;
+  padding: 5px;
+  text-align: center;
+  font-size: 10px;
+  
+}
+/* Style the placeholder text for text input fields */
+input[type="text"]::placeholder {
+  color: #333;
+    /* Add your desired styles here */
+}
+input[type="number"]::placeholder {
+  color: #333;
+    /* Add your desired styles here */
+}
+textarea {
+  border: 5px solid #000;
+  padding: 10px;
+  text-align: center;
+  font-size: 10px;
+  
+}
+textarea[id="message"]::placeholder {
+  color: #333;
+}
+input[type="Email"]::placeholder {
+ 
+  
+  color: #333;
+    /* Add your desired styles here */
+}
+.circle {
+  height: 20px;
+  width: 20px;
+  border-radius: 30%;
+}
+p {
+  text-align: center;
+  color: #0000ff & #228B22;
+  font-size: 20px;
+  margin-top: 2em;
+}

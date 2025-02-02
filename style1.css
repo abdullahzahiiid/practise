@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serfff
+    
+    
+}
+
+header {
+    
+    background-color: #333;
+    
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.1s;
+}
+
+nav ul li a:hover {
+    color: #000fff; /* Change color on hover */
+}
+
+.section {
+    height: 92vh;
+    display: flex;
+    
+    justify-content: center;
+    top: 30%;
+    font-size: 24px;
+    color: #fff;
+    background-color: #000;
+}
+
+/* Stunning background animation */
+.section:nth-child(odd) {
+    background: linear-gradient(45deg, #700fff, #fff);
+    
+    animation: gradient 15s infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
